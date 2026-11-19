@@ -14,3 +14,27 @@
 
 #What is a Flowchart?
 -->A flowchart is a graphical or diagrammatic representation of an algorithm or process.
+
+#What is Pseudocode?
+-->Pseudocode is a simple way of writing the logic of a program using plain English and programming-like statements.
+
+Ex:--Flowchart: Addition of Two Numbers
+       ( START )
+           |
+      / Input A /
+           |
+      / Input B /
+           | 
+     [ SUM = A + B ]
+           |   
+      / Print SUM /
+           |
+        ( STOP )
+
+--Algorithm and Pseudocode
+1. Start.
+2. Input first number A.
+3. Input second number B.
+4. Calculate SUM = A + B.
+5. Display SUM.
+6. Stop.
