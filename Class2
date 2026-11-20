@@ -1,1 +1,33 @@
+#How Does a Java Program Run?
+Java Program Execution Flow
 
+1. Write Java Code (Main.java)
+           |
+2. Java Compiler (javac) Compiles source code
+           |
+3. Bytecode Generated (Main.class)
+           |
+4. Class Loader Loads the class into JVM
+           |
+5. Bytecode Verification Checks bytecode validity and safety
+           |
+6. JVM Execution Engine Interpreter and JIT Compiler execute code
+           |
+7. Output Program result
+
+#JDK: Used to develop and compile Java programs.
+#JRE: Provides the runtime environment and libraries needed to run Java applications.
+#JVM: Executes Java bytecode.
+
+# What is an IDE?
+IDE stands for Integrated Development Environment.
+An IDE is software that provides tools to write, compile, run, and debug programs in one place.
+In simple words, an IDE is a platform where we write and execute programming code.
+
+#First Java Program
+
+public class Main {
+       public static void main(String[] args) {
+       System.out.println("Hello World");
+       }
+     }
