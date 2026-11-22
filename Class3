@@ -1,0 +1,38 @@
+What is a Variable in Java?
+A variable is a container used to store data or information in a program.
+int age = 25;
+
+Types of Variables in Java
+1. Local Variable :-A variable declared inside a method, constructor, or block.
+2. Instance Variable :-A variable declared inside a class but outside methods, without the static keyword.
+3. Instance Variable :-A variable declared inside a class but outside methods, without the static keyword.
+
+Rules for Naming Variables
+1. Variable names cannot start with a number.
+2. Spaces are not allowed.
+3. Java keywords cannot be used as variable names.
+4. Variable names are case-sensitive.
+5. Use meaningful names.
+
+What is a Data Type in Java?
+A Data Type defines the type of data that a variable can store in Java.
+int age = 22;
+String name = "Rohit";
+double salary = 25000.50;
+
+Data Type	Size	Example
+byte	1 byte	byte a = 10;
+short	2 bytes	short a = 1000;
+int	4 bytes	int a = 50000;
+long	8 bytes	long a = 123456L;
+float	4 bytes	float a = 10.5f;
+double	8 bytes	double a = 20.55;
+char	2 bytes	char a = 'A';
+boolean	JVM-dependent	boolean a = true;
+
+Primitive	                                                        Non-Primitive
+1.8 built-in types	                                         1.Many reference types
+2.Stores values directly	                                   2.Stores object references
+3.Has fixed language-defined sizes (except boolean)	         3.Size depends on the type and object
+4.Cannot be null	                                           4.Can be null
+5.Examples: int, char, boolean                         	     5.Examples: String, Array, Class
