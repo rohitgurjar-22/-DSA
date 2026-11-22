@@ -1,0 +1,40 @@
+What is an Operator in Java?
+An operator is a special symbol used to perform operations on variables and values.
+
+Java Operators
+Arithmetic :- + - * / %
+Relational :- == != > < >= <=
+Logical :- && || !
+Assignment :- = += -= *= /=
+Unary : -++ -- + - !
+Bitwise :- & | ^ ~
+Shift :-<< >> >>>
+Ternary :- ? :
+
+Ex:--
+int a = 10;
+int b = 20;
+int sum = a + b;
+System.out.println(sum);
+
+What is Input/Output in Java?
+Input/Output (I/O) is the process of taking data from the user and displaying the result to the user.
+- Input: Receiving data from the user.
+             import java.util.Scanner;
+            Scanner sc = new Scanner(System.in);
+
+- Output: Displaying information on the screen.  System.out.print() , System.out.println() , System.out.printf()
+   Ex:-System.out.print("Hello ");
+        System.out.print("Rohit");
+
+Example 1: Take Integer Input
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter your age:");
+    int age = sc.nextInt();
+    System.out.println("Your age is: " + age);
+    sc.close();
+    }
+}
